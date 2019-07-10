@@ -20,5 +20,6 @@ Zerui Zhang
 Wenting Zhao  
 Yifan Zhu  
 
-
+## Links
 Please refer to https://github.com/tianqinglong/dmc2019 for more detailed solutions.
+You can download the DMC 2019 task on https://www.data-mining-cup.com/dmc-2019/.
