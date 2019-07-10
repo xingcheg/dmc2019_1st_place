@@ -1,7 +1,7 @@
 # First Place Solution and Poster for Data Mining Cup 2019
 
 ## Topic:
-Develop Automated Fraud Detection Model for Self-Scanning Systems in Grocery Stores without Putting Innocent Customers through Unnecessary Inspections.
+Develop Automated Fraud Detection Model for Self-Scanning Systems in Grocery Stores without Putting Innocent Customers through Unnecessary Inspections. 
 
 ## Presented by: 
 ISU Team II
@@ -19,3 +19,6 @@ Qihao Zhang
 Zerui Zhang  
 Wenting Zhao  
 Yifan Zhu  
+
+
+Please refer to https://github.com/tianqinglong/dmc2019 for more detailed solutions.
