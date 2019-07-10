@@ -4,9 +4,8 @@
 ISU Team II
 
 ## Team members: 
-Xingche Guo 
-
-Gang Han
+Xingche Guo  
+Gang Han  
 Haoyan Hu
 Qinglong Tian
 Shaodong Wang
