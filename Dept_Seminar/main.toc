@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Problem Introduction and Data Description}{3}{0}{1}
+\beamer@sectionintoc {2}{Evaluation Criteria and Cross-Validation Design}{14}{0}{2}
+\beamer@sectionintoc {3}{Feature Engineering and Machine Learning Model Selection}{20}{0}{3}
+\beamer@sectionintoc {4}{The Final Method and Solutions}{27}{0}{4}
+\beamer@sectionintoc {5}{Summary}{39}{0}{5}
