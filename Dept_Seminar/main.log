@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.16)  9 SEP 2019 12:57
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.16)  9 SEP 2019 23:57
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1384,17 +1384,9 @@ Package luatex.def Info: figure/FlowChart.png used on input line 225.
 
 <./figure/FlowChart.png>] [14
 
-]
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
- [15
+] [15
 
-]
-Missing character: There is no ݸ (U+0778) in font mathkerncmssi10!
- [16
+] [16
 
 Missing character: There is no “ (U+201C) in font cmss10!
 Missing character: There is no ” (U+201D) in font cmss10!
@@ -1529,11 +1521,11 @@ Package luatex.def Info: figure/rank_our_models.pdf used on input line 696.
 \tf@snm=\write9
 
 \openout9 = main.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 758.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 758.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 759.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 759.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 758.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 758.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 759.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 759.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F3CDC749767B1E9CD583AAAFB09CD09C;356.
 
@@ -1541,7 +1533,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 758.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 759.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1550,7 +1542,7 @@ Here is how much of LuaTeX's memory you used:
  7882 words of node memory still in use:
    13 hlist, 6 vlist, 2 rule, 1 local_par, 1031 glue, 2 kern, 11 penalty, 11 gly
 ph, 52 glue_spec, 3 write, 1 pdf_action, 6 pdf_colorstack nodes
-   avail lists: 2:29,3:315,4:178,5:219,6:1700,7:920,8:119,9:437,10:17,11:173
+   avail lists: 2:29,3:315,4:178,5:231,6:1703,7:920,8:119,9:437,10:17,11:173
  23805 multiletter control sequences out of 65536+600000
  120 fonts using 4970107 bytes
  56i,16n,60p,383b,698s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1572,7 +1564,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on main.pdf (43 pages, 798327 bytes).
+Output written on main.pdf (43 pages, 798529 bytes).
 
 PDF statistics: 1347 PDF objects out of 1440 (max. 8388607)
  1239 compressed objects within 13 object streams

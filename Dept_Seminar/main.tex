@@ -233,14 +233,14 @@ $S(y,\hat{y})=5 \times I(y=1,\hat{y}=1) - 5 \times I(y=1,\hat{y}=0) - 25 \times 
     \begin{itemize}
         \item 
         An unbalanced loss is given by the negative of the score function in this problem. Therefore we need an optimal decision rule for this loss. 
-        \item  Let $y$ and $\hat{y}$ be the truth and prediction and $\bm x$ be the vector of features. 
+        \item  Let $y$ and $\hat{y}$ be the truth and prediction and $\pmb{x}$ be the vector of features. 
         \item Denote $L(y, \hat{y}) = - S(y, \hat{y})$ as the loss function in this contest,  we predict $\hat{y}=1$ when: 
-  $$\mathbb{E}[{L}({y}, 1) | \bm{x}]<\mathbb{E}[{L}({y}, 0) | \bm{x}],$$
+  $$\mathbb{E}[{L}({y}, 1) | \pmb{x}]<\mathbb{E}[{L}({y}, 0) | \pmb{x}],$$
 By solving the inequality, we have:
 $$
-{p}(1 | \bm {x})>\frac{{L}(0,1)-{L}(0,0)}{{L}(1,0)-{L}(0,0)-{L}(1,1)+{L}(0,1)} = \frac{5}{7}
+{p}(1 | \pmb{x})>\frac{{L}(0,1)-{L}(0,0)}{{L}(1,0)-{L}(0,0)-{L}(1,1)+{L}(0,1)} = \frac{5}{7}
 $$
-Therefore, \textbf{fraud is detected when ${\hat{p}(1|\bm x)>5/7}$}.
+Therefore, \textbf{fraud is detected when ${\hat{p}(1|\pmb{x})>5/7}$}.
     
     \end{itemize}
 
@@ -251,7 +251,7 @@ Therefore, \textbf{fraud is detected when ${\hat{p}(1|\bm x)>5/7}$}.
 \begin{frame}
     \frametitle{The Oracle Bound}
 \begin{itemize}
-    \item With the optimal threshold, all the models hereby aim to find a good approximation of the conditional probability $\hat{p}(1|\bm x)$.
+    \item With the optimal threshold, all the models hereby aim to find a good approximation of the conditional probability $\hat{p}(1|\pmb{x})$.
     \item For this training data set, we have 104 fraud “1” out of 1879 data points. Since we cannot classify every customer correctly as fraud or no fraud , then oracle upper bound of total score (when all are classified correctly) for this training data is
     \[\sum_{i=1}^n S(y_i, \hat{y}_i) = 5 \times 104 = 520\]
 \end{itemize}
@@ -686,7 +686,7 @@ Feature Set 3: \textcolor{blue}{$baseLine + T \times (1+V+V^{3.5}) $}. \\
 
 
 \begin{frame}
-\frametitle{All of Our Solutions vs Rest of 2nd Best Team}
+\frametitle{All of Our Solutions vs Score of the 2nd Best Team}
 
 	\begin{figure}[H]
 		\centering
@@ -705,6 +705,7 @@ Feature Set 3: \textcolor{blue}{$baseLine + T \times (1+V+V^{3.5}) $}. \\
 \frametitle{Key Ingredients Lead Us to Win}
 
 \begin{itemize}
+\item STAT 602 helps.
 \item Derive optimal threshold for unbalanced 2-class loss function.
 \item Use multiple evaluation criteria for model selection.
 \item Successful feature engineering.
